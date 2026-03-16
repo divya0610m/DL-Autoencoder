@@ -30,9 +30,9 @@ Visualization and Analysis
 
 ## PROGRAM
 
-### Name: Dharini.S
+### Name: DIVYA LAKSHMI M
 
-### Register Number: 212224040072
+### Register Number: 212224040082
 
 ```python
 import torch.nn as nn
