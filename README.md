@@ -30,9 +30,9 @@ Visualization and Analysis
 
 ## PROGRAM
 
-### Name: Dharini.S
+### Name: DIVYA LAKSHMI M
 
-### Register Number: 212224040072
+### Register Number: 212224040082
 
 ```python
 import torch.nn as nn
@@ -85,14 +85,14 @@ model = DenoisingAutoencoder().to(device)
 criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=1e-3)
 
-print("Name: DHARINI S")
-print("Register Number: 212224040072")
+print('Name: Divya Lakshmi M')
+print('Register Number: 212224040082')
 summary(model, input_size=(1, 28, 28))
 
 def train(model, loader, criterion, optimizer, epochs=5):
     model.train()
-    print("Name: DHARINI S")
-    print("Register Number: 212224040072")
+    print('Name: Divya Lakshmi M')
+    print('Register Number: 212224040082')
     for epoch in range(epochs):
         running_loss = 0.0
         for images, _ in loader:
@@ -120,8 +120,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: DHARINI S")
-    print("Register Number: 2122240400")
+    print('Name: Divya Lakshmi M')
+    print('Register Number: 212224040082')
     plt.figure(figsize=(18, 6))
 
     for i in range(num_images):
@@ -154,12 +154,15 @@ visualize_denoising(model, test_loader)
 
 ### Model Summary
 
+<img width="638" height="459" alt="Screenshot 2026-03-16 094613" src="https://github.com/user-attachments/assets/ca8f3c6a-46a8-452a-b85d-ae9fad56ad61" />
 
 ### Training loss
 
+<img width="324" height="146" alt="Screenshot 2026-03-16 094627" src="https://github.com/user-attachments/assets/c1d193ba-0944-4438-8f0e-ef3c165a7001" />
 
 ## Original vs Noisy Vs Reconstructed Image
 
+<img width="1723" height="611" alt="Screenshot 2026-03-16 094645" src="https://github.com/user-attachments/assets/116818c3-7100-499e-8686-bba363fff65d" />
 
 ## RESULT
 
