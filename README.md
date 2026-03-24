@@ -153,12 +153,13 @@ visualize_denoising(model, test_loader)
 ### OUTPUT
 
 ### Model Summary
-<img src="images/1111.jpg" width="600">
+
+
 ### Training loss
-<img src="images/2.jpg" width="600">
+
 
 ## Original vs Noisy Vs Reconstructed Image
-<img src="images/3.jpg" width="600">
+
 
 ## RESULT
 
