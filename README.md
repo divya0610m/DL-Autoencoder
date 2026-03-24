@@ -30,9 +30,9 @@ Visualization and Analysis
 
 ## PROGRAM
 
-### Name: DIVYA LAKSHMI M
+### Name: Dharini.S
 
-### Register Number: 212224040082
+### Register Number: 212224040072
 
 ```python
 import torch.nn as nn
@@ -85,14 +85,14 @@ model = DenoisingAutoencoder().to(device)
 criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=1e-3)
 
-print("Name: DIVYA LAKSHMI M")
-print("Register Number: 212224040082")
+print("Name: DHARINI S")
+print("Register Number: 212224040072")
 summary(model, input_size=(1, 28, 28))
 
 def train(model, loader, criterion, optimizer, epochs=5):
     model.train()
-    print("Name: DIVYA LAKSHMI M")
-    print("Register Number: 212224040082")
+    print("Name: DHARINI S")
+    print("Register Number: 212224040072")
     for epoch in range(epochs):
         running_loss = 0.0
         for images, _ in loader:
@@ -120,8 +120,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: DIVYA LAKSHMI M")
-    print("Register Number: 212224040082")
+    print("Name: DHARINI S")
+    print("Register Number: 2122240400")
     plt.figure(figsize=(18, 6))
 
     for i in range(num_images):
@@ -153,16 +153,12 @@ visualize_denoising(model, test_loader)
 ### OUTPUT
 
 ### Model Summary
-
-<img src="https://img.sanishtech.com/u/5b555f53c6efc9d49268b9f13d3817e8.png" alt="Screenshot 2026-03-16 094613" width="638" height="459" loading="lazy" style="max-width:100%;height:auto;">
-
+<img src="images/1111.jpg" width="600">
 ### Training loss
-
-<img src="https://img.sanishtech.com/u/abf19cd53d97a0357bd7f5716a3f74e1.png" alt="Screenshot 2026-03-16 094627" width="324" height="146" loading="lazy" style="max-width:100%;height:auto;">
+<img src="images/2.jpg" width="600">
 
 ## Original vs Noisy Vs Reconstructed Image
-
-<img src="https://img.sanishtech.com/u/c2edd2ed288ade082b8b98139aa853b6.png" alt="Screenshot 2026-03-16 094645" loading="lazy" style="max-width:100%;height:auto;">
+<img src="images/3.jpg" width="600">
 
 ## RESULT
 
