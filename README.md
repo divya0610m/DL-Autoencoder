@@ -65,8 +65,6 @@ optimizer = optim.Adam(model.parameters(), lr=1e-3)
 
 def train(model, loader, criterion, optimizer, epochs=5):
     model.train()
-    print('Name: Divya Lakshmi M')
-    print('Register Number: 212224040082')
     for epoch in range(epochs):
         running_loss = 0.0
         for images, _ in loader:
